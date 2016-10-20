@@ -1,0 +1,27 @@
+{
+  "name": "filled",
+  "version": "0.0.0",
+  "description": "Check if array contains something.",
+  "main": "filled.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "array",
+    "filled"
+  ],
+  "homepage": "https://github.com/volkovasystems/filled",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "doubt": "^0.0.4",
+    "truly": "^0.0.0"
+  }
+}
