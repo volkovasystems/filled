@@ -83,7 +83,7 @@ var filled = function filled( array ){
 		throw new Error( "invalid array" );
 	}
 
-	return ( array.length != 0 ||
+	return ( array.length != 0 &&
 		array.filter( function onEachItem( item ){
 			return truly( item );
 		} ).length != 0 );
