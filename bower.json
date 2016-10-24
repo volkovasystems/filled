@@ -1,6 +1,6 @@
 {
   "name": "filled",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if array contains something.",
   "main": "filled.js",
   "authors": [
@@ -21,7 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "doubt": "^0.0.4",
-    "truly": "^0.0.0"
+    "truly": "^0.0.0",
+    "doubt": "^0.0.6"
   }
 }
