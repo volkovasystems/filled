@@ -1,6 +1,6 @@
 {
   "name": "filled",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "doubt": {
       "version": "0.0.6",
@@ -18,8 +18,9 @@
       "resolved": "https://registry.npmjs.org/raze/-/raze-0.0.8.tgz"
     },
     "truly": {
-      "version": "0.0.0",
-      "from": "truly@latest"
+      "version": "0.0.1",
+      "from": "truly@latest",
+      "resolved": "https://registry.npmjs.org/truly/-/truly-0.0.1.tgz"
     }
   }
 }

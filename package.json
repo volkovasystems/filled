@@ -1,6 +1,6 @@
 {
   "name": "filled",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if array contains something.",
   "main": "filled.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/volkovasystems/filled#readme",
   "dependencies": {
     "doubt": "0.0.6",
-    "truly": "0.0.0"
+    "truly": "0.0.1"
   }
 }

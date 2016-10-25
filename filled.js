@@ -84,6 +84,7 @@ var filled = function filled( array ){
 	}
 
 	return ( array.length != 0 &&
+		
 		array.filter( function onEachItem( item ){
 			return truly( item );
 		} ).length != 0 );
