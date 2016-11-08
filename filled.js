@@ -53,24 +53,20 @@
 	@end-include
 */
 
-if( typeof window == "undefined" ){
+if( typeof require == "function" ){
 	var doubt = require( "doubt" );
 	var truly = require( "truly" );
 }
 
-if( typeof window != "undefined" &&
-	!( "doubt" in window ) )
-{
+if( typeof window != "undefined" && !( "doubt" in window ) ){
 	throw new Error( "doubt is not defined" );
 }
 
-if( typeof window != "undefined" &&
-	!( "truly" in window ) )
-{
+if( typeof window != "undefined" && !( "truly" in window ) ){
 	throw new Error( "truly is not defined" );
 }
 
-var filled = function filled( array ){
+this.filled = function filled( array ){
 	/*;
 		@meta-configuration:
 			{
@@ -79,17 +75,13 @@ var filled = function filled( array ){
 		@end-meta-configuration
 	*/
 
-	if( !doubt( array ).AS_ARRAY ){
+	if( !doubt( array ).ARRAY ){
 		throw new Error( "invalid array" );
 	}
 
-	return ( array.length != 0 &&
-		
-		array.filter( function onEachItem( item ){
-			return truly( item );
-		} ).length != 0 );
+	return ( array.length != 0 && array.filter( truly ).length != 0 );
 };
 
-if( typeof module != "undefined" ){
-	module.exports = filled;
+if( typeof module != "undefined" && typeof module.exports != "undefined" ){
+	module.exports = this.filled;
 }
