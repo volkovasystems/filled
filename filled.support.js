@@ -57,26 +57,26 @@
 	@end-include
 */
 
-const doubt = require( "doubt" );
-const raze = require( "raze" );
-const truly = require( "truly" );
+var doubt = require("doubt");
+var raze = require("raze");
+var truly = require("truly");
 
-const filled = function filled( array ){
+var filled = function filled(array) {
 	/*;
-		@meta-configuration:
-			{
-				"array:required": "[*]"
-			}
-		@end-meta-configuration
-	*/
+ 	@meta-configuration:
+ 		{
+ 			"array:required": "[*]"
+ 		}
+ 	@end-meta-configuration
+ */
 
-	if( !doubt( array ).AS_ARRAY ){
-		throw new Error( "invalid array" );
+	if (!doubt(array).AS_ARRAY) {
+		throw new Error("invalid array");
 	}
 
-	array = raze( array );
+	array = raze(array);
 
-	return ( array.length != 0 && array.filter( truly ).length != 0 );
+	return array.length != 0 && array.filter(truly).length != 0;
 };
 
 module.exports = filled;
