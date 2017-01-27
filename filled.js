@@ -70,7 +70,7 @@ const filled = function filled( array ){
 		@end-meta-configuration
 	*/
 
-	if( !doubt( array ).AS_ARRAY ){
+	if( !doubt( array, AS_ARRAY ) ){
 		throw new Error( "invalid array" );
 	}
 
