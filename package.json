@@ -1,13 +1,13 @@
 {
   "name": "filled",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Check if array contains something.",
   "main": "filled.js",
   "support": "filled.support.js",
   "deploy": "filled.deploy.js",
   "browser": "filled.deploy.js",
   "scripts": {
-    "build": "babel filled.js --out-file filled.support.js --source-maps && webpack --progress",
+    "build": "babel filled.js --out-file filled.support.js --source-maps && webpack --progress --display-modules",
     "test": "mocha filled-test.js"
   },
   "repository": {
@@ -30,8 +30,8 @@
   "homepage": "https://github.com/volkovasystems/filled#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "doubt": "^0.16.0",
-    "raze": "^0.18.0",
+    "doubt": "^0.17.0",
+    "raze": "^0.19.0",
     "truly": "^0.13.0"
   },
   "devDependencies": {

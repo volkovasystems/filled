@@ -16,4 +16,5 @@ bower install \
 doubt \
 raze \
 truly \
---save
+--save \
+--force-latest
