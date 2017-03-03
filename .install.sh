@@ -1,8 +1,7 @@
 yarn add \
 babel-runtime \
+arkount \
 doubt \
-raze \
-truly \
 --save && \
 yarn add \
 babel-cli \
@@ -13,8 +12,7 @@ source-map-loader \
 webpack \
 --dev && \
 bower install \
+arkount \
 doubt \
-raze \
-truly \
 --save \
 --force-latest

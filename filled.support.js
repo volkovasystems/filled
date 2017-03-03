@@ -50,16 +50,14 @@
               
               	@include:
               		{
-              			"doubt": "doubt",
-              			"raze": "raze",
-              			"truly": "truly"
+              			"arkount": "arkount",
+              			"doubt": "doubt"
               		}
               	@end-include
               */
 
+var arkount = require("arkount");
 var doubt = require("doubt");
-var raze = require("raze");
-var truly = require("truly");
 
 var filled = function filled(array) {
 	/*;
@@ -74,9 +72,7 @@ var filled = function filled(array) {
 		throw new Error("invalid array");
 	}
 
-	array = raze(array);
-
-	return array.length != 0 && array.filter(truly).length != 0;
+	return arkount(array) != 0;
 };
 
 module.exports = filled;
