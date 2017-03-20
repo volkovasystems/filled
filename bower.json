@@ -1,6 +1,6 @@
 {
   "name": "filled",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "description": "Check if array contains something.",
   "main": "filled.deploy.js",
   "support": "filled.support.js",
