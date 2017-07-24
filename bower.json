@@ -1,29 +1,29 @@
 {
-  "name": "filled",
-  "version": "0.25.0",
-  "description": "Check if array contains something.",
-  "main": "filled.deploy.js",
-  "support": "filled.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "check",
-    "array",
-    "filled"
-  ],
-  "homepage": "https://github.com/volkovasystems/filled",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "arkount": "^0.11.0"
-  }
+	"name": "filled",
+	"version": "0.26.0",
+	"description": "Check if array contains something.",
+	"main": "filled.deploy.js",
+	"support": "filled.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"check",
+		"array",
+		"filled"
+	],
+	"homepage": "https://github.com/volkovasystems/filled",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"arkount": "^0.12.0"
+	}
 }
