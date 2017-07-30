@@ -1,17 +1,60 @@
-ok
 {
   "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
+    "suites": 4,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2017-07-29T21:36:46.348Z",
-    "end": "2017-07-29T21:36:46.350Z",
-    "duration": 2
+    "start": "2017-07-30T15:53:21.295Z",
+    "end": "2017-07-30T15:53:21.301Z",
+    "duration": 6
   },
-  "tests": [],
+  "tests": [
+    {
+      "title": "should return true",
+      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should return true",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return true",
+      "fullTitle": "filled `filled( [ { } ] )` should return true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return false",
+      "fullTitle": "filled `filled( [ ] )` should return false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
   "pending": [],
   "failures": [],
-  "passes": []
+  "passes": [
+    {
+      "title": "should return true",
+      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should return true",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return true",
+      "fullTitle": "filled `filled( [ { } ] )` should return true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return false",
+      "fullTitle": "filled `filled( [ ] )` should return false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
