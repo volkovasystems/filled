@@ -5,28 +5,28 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2017-07-30T15:53:21.295Z",
-    "end": "2017-07-30T15:53:21.301Z",
-    "duration": 6
+    "start": "2017-08-05T11:15:43.365Z",
+    "end": "2017-08-05T11:15:43.373Z",
+    "duration": 8
   },
   "tests": [
     {
-      "title": "should return true",
-      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should return true",
+      "title": "should be equal to true",
+      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should be equal to true",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "should return true",
-      "fullTitle": "filled `filled( [ { } ] )` should return true",
+      "title": "should be equal to true",
+      "fullTitle": "filled `filled( [ { } ] )` should be equal to true",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "should return false",
-      "fullTitle": "filled `filled( [ ] )` should return false",
+      "title": "should be equal to false",
+      "fullTitle": "filled `filled( [ ] )` should be equal to false",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -36,22 +36,22 @@
   "failures": [],
   "passes": [
     {
-      "title": "should return true",
-      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should return true",
+      "title": "should be equal to true",
+      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should be equal to true",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "should return true",
-      "fullTitle": "filled `filled( [ { } ] )` should return true",
+      "title": "should be equal to true",
+      "fullTitle": "filled `filled( [ { } ] )` should be equal to true",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "should return false",
-      "fullTitle": "filled `filled( [ ] )` should return false",
+      "title": "should be equal to false",
+      "fullTitle": "filled `filled( [ ] )` should be equal to false",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

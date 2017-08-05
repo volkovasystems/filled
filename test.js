@@ -54,7 +54,7 @@
 	@end-include
 */
 
-const assert = require( "assert" );
+const assert = require( "should" );
 
 //: @server:
 const filled = require( "./filled.js" );
@@ -70,7 +70,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ 1, 2, 3 ] )`", ( ) => {
-		it( "should return true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( filled( [ 1, 2, 3 ] ), true );
 
@@ -79,7 +79,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ { } ] )`", ( ) => {
-		it( "should return true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( filled( [ { } ] ), true );
 
@@ -88,13 +88,12 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ ] )`", ( ) => {
-		it( "should return false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( filled( [ ] ), false );
 
 		} );
 	} );
-
 } );
 //: @end-server
 
@@ -102,16 +101,3 @@ describe( "filled", ( ) => {
 
 
 
-
-
-
-// const assert = require( "assert" );
-// const filled = require( "./filled.js" );
-
-// assert.equal( filled( [ 1, 2, 3 ] ), true, "should return true" );
-
-// assert.equal( filled( [ { } ] ), true, "should return true" );
-
-// assert.equal( filled( [ ] ), false, "should return false" );
-
-// console.log( "ok" );
