@@ -54,7 +54,7 @@
 	@end-include
 */
 
-const assert = require( "assert" );
+const assert = require( "should" );
 
 //: @server:
 const filled = require( "./filled.js" );
