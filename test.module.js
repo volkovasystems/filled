@@ -74,7 +74,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ 1, 2, 3 ] )`", ( ) => {
-		it( "should return true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( filled( [ 1, 2, 3 ] ), true );
 
@@ -83,7 +83,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ { } ] )`", ( ) => {
-		it( "should return true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( filled( [ { } ] ), true );
 
@@ -92,7 +92,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ ] )`", ( ) => {
-		it( "should return false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( filled( [ ] ), false );
 
@@ -108,7 +108,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ 1, 2, 3 ] )`", ( ) => {
-		it( "should return true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( filled( [ 1, 2, 3 ] ), true );
 
@@ -117,7 +117,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ { } ] )`", ( ) => {
-		it( "should return true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( filled( [ { } ] ), true );
 
@@ -126,7 +126,7 @@ describe( "filled", ( ) => {
 
 
 	describe( "`filled( [ ] )`", ( ) => {
-		it( "should return false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( filled( [ ] ), false );
 
@@ -138,7 +138,59 @@ describe( "filled", ( ) => {
 
 //: @bridge:
 
+describe( "filled", ( ) => {
+
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
+	describe( "`filled( [ 1, 2, 3 ] )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return filled( [ 1, 2, 3 ] );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( "`filled( [ { } ] )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return filled( [ { } ] );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( "`filled( [ ] )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return filled( [ ] );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
+
 
 //: @end-bridge
-
-
