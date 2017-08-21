@@ -1,60 +1,60 @@
 {
-  "stats": {
-    "suites": 4,
-    "tests": 3,
-    "passes": 3,
-    "pending": 0,
-    "failures": 0,
-    "start": "2017-08-18T07:06:51.819Z",
-    "end": "2017-08-18T07:06:51.832Z",
-    "duration": 13
-  },
-  "tests": [
-    {
-      "title": "should be equal to true",
-      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should be equal to true",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "should be equal to true",
-      "fullTitle": "filled `filled( [ { } ] )` should be equal to true",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "should be equal to false",
-      "fullTitle": "filled `filled( [ ] )` should be equal to false",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ],
-  "pending": [],
-  "failures": [],
-  "passes": [
-    {
-      "title": "should be equal to true",
-      "fullTitle": "filled `filled( [ 1, 2, 3 ] )` should be equal to true",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "should be equal to true",
-      "fullTitle": "filled `filled( [ { } ] )` should be equal to true",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "should be equal to false",
-      "fullTitle": "filled `filled( [ ] )` should be equal to false",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ]
+	"stats": {
+		"suites": 4,
+		"tests": 3,
+		"passes": 3,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-08-21T10:27:06.648Z",
+		"end": "2017-08-21T10:27:06.654Z",
+		"duration": 6
+	},
+	"tests": [
+		{
+			"title": "should be equal to true",
+			"fullTitle": "filled `filled( [ 1, 2, 3 ] )` should be equal to true",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be equal to true",
+			"fullTitle": "filled `filled( [ { } ] )` should be equal to true",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be equal to false",
+			"fullTitle": "filled `filled( [ ] )` should be equal to false",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should be equal to true",
+			"fullTitle": "filled `filled( [ 1, 2, 3 ] )` should be equal to true",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be equal to true",
+			"fullTitle": "filled `filled( [ { } ] )` should be equal to true",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should be equal to false",
+			"fullTitle": "filled `filled( [ ] )` should be equal to false",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
 }
